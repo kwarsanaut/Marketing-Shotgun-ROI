@@ -355,7 +355,7 @@ def main():
                     color='roi',
                     color_continuous_scale='RdYlGn'
                 )
-                fig_bar.update_xaxis(tickangle=45)
+                fig_bar.update_xaxes(tickangle=45)
                 fig_bar.update_layout(xaxis_title="Channel", yaxis_title="ROI (%)")
                 st.plotly_chart(fig_bar, use_container_width=True)
     
